@@ -1,7 +1,9 @@
+import About from '@/components/about'
 import Main from '@/components/main'
+import Projects from '@/components/projects'
+import Skills from '@/components/skills'
 import Head from 'next/head'
-import Image from 'next/image'
-import Navbar from '../components/navbar'
+import Contacts from '@/components/contacts'
 
 export default function Home() {
   return (
@@ -12,8 +14,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    <Navbar></Navbar>
-    <Main></Main>
+    <Main/>
+    <About/>
+    <Skills/>
+    <Projects/>
+    <Contacts/>
     </div>
   )
 }
