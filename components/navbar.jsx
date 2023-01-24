@@ -4,11 +4,27 @@ import Link from "next/link";
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai'
 import {FaGithub, FaLinkedin} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import { useRouter } from "next/router";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const [shadow, setShadow] = useState(false)
+    const [navBg, setNavBg] = useState('#252525')
+    const [linkColor, setLinkColor] = useState('#FFFFFF')
+    const router = useRouter()
 
+    // To keep navbar open in project page and set the navbar link color
+    useEffect(()=>{
+        if (router.asPath === '/bomberman') {
+            setNavBg('transparent')
+            setLinkColor('#FFCFCF')
+        }else{
+            setNavBg('#252525')
+            setLinkColor('#FFCFCF')
+        }
+    }, [router])
+
+    // Close navbar when menu was clicked
     const handleNav = () => {
         setNav(!nav)
     }
@@ -25,10 +41,13 @@ const Navbar = () => {
     }, [])
 
     return (
-        <div className={shadow ? "fixed w-full h-20 shadow-xl z-[100]" : "fixed w-full h-20 z-[100]"}>
+
+        // Desktop without navbar burger
+        <div style={{backgroundColor: `${navBg}`}} className={shadow ? "fixed w-full h-20 shadow-md z-[100]" : "fixed w-full h-20 z-[100]"}>
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
                 <Link href='/'>
-                    <Image 
+                    <Image
+                        className="ml-2" 
                         src="/../public/assets/NavbarIcon.png" 
                         alt="icon" 
                         width='125' 
@@ -36,7 +55,7 @@ const Navbar = () => {
                     />
                 </Link>
                 <div>
-                    <ul className="hidden md:flex">
+                    <ul style={{color: `${linkColor}`}} className="hidden md:flex mr-2">
                         <Link href='/'>
                             <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
                         </Link>
@@ -53,12 +72,14 @@ const Navbar = () => {
                             <li className="ml-10 text-sm uppercase hover:border-b">Contacts</li>
                         </Link>
                     </ul>
-                    <div onClick={handleNav} className="md:hidden">
+                    <div onClick={handleNav} className="md:hidden mr-2">
                         <AiOutlineMenu size={25}></AiOutlineMenu>
                     </div>
                 </div>
             </div> 
         
+
+        {/* Mobile App with Burger */}
         <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/40' : ''}>
             <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#252525] p-10 ease-in duration-500' : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
                 <div>
@@ -72,7 +93,7 @@ const Navbar = () => {
                                 onClick={()=> setNav(false)}
                                 />
                         </Link>
-                        <div onClick={handleNav} className="rounded-full shadow-lg shadow-[#FFCFCF] p-3 cursor-pointer">
+                        <div onClick={handleNav} className="rounded-full shadow-md shadow-[#FFCFCF] p-3 cursor-pointer">
                             <AiOutlineClose></AiOutlineClose>
                         </div>
                     </div>
@@ -102,24 +123,51 @@ const Navbar = () => {
                         <p className="uppercase tracking-widest text-[#FFCFCF]">
                             Lets Connect!
                         </p>
-                        <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                            <div className="rounded-full shadow-lg shadow-[#FFCFCF] p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                <FaLinkedin></FaLinkedin>
-                            </div>
-                            <div className="rounded-full shadow-lg shadow-[#FFCFCF] p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                <FaGithub></FaGithub>
-                            </div>
-                            <div className="rounded-full shadow-lg shadow-[#FFCFCF] p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                <AiOutlineMail></AiOutlineMail>
-                            </div>
-                            <div className="rounded-full shadow-lg shadow-[#FFCFCF] p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                <BsFillPersonLinesFill></BsFillPersonLinesFill>
+                            <div className='flex items-center justify-between py-4'>
+                                <a
+                                    href='https://www.linkedin.com/in/ikhwanul-abiyu-dhiyya-ul-haq-249268220/'
+                                    target='_blank'
+                                    rel='noreferrer'
+                                >
+                                    <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                                        <FaLinkedin/>
+                                    </div>
+                                </a>
+                                    
+                                <a
+                                    href='https://github.com/wannn-one'
+                                    target='_blank'
+                                    rel='noreferrer'
+                                >
+                                    <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                                        <FaGithub/>
+                                    </div>
+                                </a>
+
+                                <a
+                                    href='https://mail.google.com/mail/u/0/?fs=1&to=ikhwanulabiyu@gmail.com&su=Introduction%20From%20Us&body=%27%27&bcc=%27%27&tf=cm'
+                                    target='_blank'
+                                    rel='noreferrer'
+                                >
+                                    <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                                        <AiOutlineMail/>
+                                    </div>
+                                </a>
+
+                                <a
+                                    href='/blog'
+                                    target='_blank'
+                                    rel='noreferrer'
+                                >
+                                    <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                                        <BsFillPersonLinesFill/>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     )
 }

@@ -27,6 +27,10 @@
   }
 
   button {
-    @apply shadow-xl shadow-gray-500 rounded-xl uppercase bg-gradient-to-r from-[#FF2626] to-[#ADFF26]
+    @apply rounded-xl uppercase bg-gradient-to-r from-[#ADFF26] to-[#FFFFFF]
+  }
+
+  input, textarea{
+    color: #252525;
   }
 }

@@ -1,6 +1,16 @@
 import React from "react";
-import Image from "next/image";
 import SkillsItem from "./skillsItem";
+import CPPIcon from '../public/assets/skills/c++.png'
+import HTMLIcon from '../public/assets/skills/html.png'
+import CSSIcon from '../public/assets/skills/css.png'
+import JSIcon from '../public/assets/skills/javascript.png'
+import NextIcon from '../public/assets/skills/next.png'
+import ReactIcon from '../public/assets/skills/react.png'
+import TailwindIcon from '../public/assets/skills/tailwind.png'
+import GithubIcon from '../public/assets/skills/github.png'
+import FigmaIcon from '../public/assets/skills/figma.png'
+import CanvaIcon from '../public/assets/skills/canva.png'
+import OpenCVIcon from '../public/assets/skills/opencv.png'
 
 const Skills = () => {
     return (
@@ -12,52 +22,57 @@ const Skills = () => {
                     
                     <SkillsItem
                         skillTitle='C/C++'
-                        skillImage=''
+                        skillImage={CPPIcon}
                     />
 
                     <SkillsItem
                         skillTitle='HTML'
-                        skillImage=''
+                        skillImage={HTMLIcon}
                     />
 
                     <SkillsItem
                         skillTitle='CSS'
-                        skillImage=''
+                        skillImage={CSSIcon}
                     />
 
                     <SkillsItem
                         skillTitle='Javascript'
-                        skillImage=''
+                        skillImage={JSIcon}
                     />
 
                     <SkillsItem
                         skillTitle='Next.js'
-                        skillImage=''
+                        skillImage={NextIcon}
                     />
 
                     <SkillsItem
                         skillTitle='React'
-                        skillImage=''
+                        skillImage={ReactIcon}
                     />
 
                     <SkillsItem
                         skillTitle='Tailwind CSS'
-                        skillImage=''
+                        skillImage={TailwindIcon}
                     />
                     
                     <SkillsItem
                         skillTitle='Github'
-                        skillImage=''
+                        skillImage={GithubIcon}
                     />
 
                     <SkillsItem
                         skillTitle='Figma'
-                        skillImage=''
+                        skillImage={FigmaIcon}
                     />
 
                     <SkillsItem
                         skillTitle='Canva'
-                        skillImage=''
+                        skillImage={CanvaIcon}
+                    />
+
+                    <SkillsItem
+                        skillTitle='OpenCV'
+                        skillImage={OpenCVIcon}
                     />
                     
                 </div>

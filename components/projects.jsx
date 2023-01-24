@@ -22,7 +22,7 @@ const Projects = () => {
                         title='Bookshelf Tekkom'
                         backgroundImg={bookshelfTekkomImg}
                         description='Books of All Computer Engineering Courses in ITS (2022 Curriculum)'
-                        projectUrl='/'
+                        projectUrl='/bookshelfTekkom'
                     />
                     
                 </div>

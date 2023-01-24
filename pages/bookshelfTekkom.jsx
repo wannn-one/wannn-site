@@ -1,6 +1,7 @@
+
 import Image from 'next/image';
 import React from 'react';
-import bombermanImg from '../public/assets/projects/bomberman.png';
+import bookshelfImg from '../public/assets/projects/bookshelf-tekkom.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -13,12 +14,12 @@ const bomberman = () => {
                     className='absolute z-1'
                     fill={true}
                     style={{objectFit:"cover"}}
-                    src={bombermanImg}
+                    src={bookshelfImg}
                     alt='/'
                 />
             <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-                <h2 className='py-2'>Bomberman</h2>
-                <h3>C++ / SFML</h3>
+                <h2 className='py-2'>Bookshelf Tekkom</h2>
+                <h3 className='ml-1'>Bookshelf for Computer Engineering Bachelor</h3>
             </div>
         </div>
 
@@ -27,29 +28,20 @@ const bomberman = () => {
             <p>Project</p>
             <h2 className='pb-2'>Overview</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dignissimos voluptatem optio rem odit mollitia expedita, nisi dolore tempora? Itaque cupiditate error deleniti! Placeat perferendis facilis cum consequatur officia quam.
+                This bookshelf was made by myself and is a form of initiative. So that, I can study without having to search the pdfs on Google again. This repository is a public repositort, so that everyone can get the benefits. I hoped this repository can used as it should
             </p>
             <a
-                href='https://github.com/wannn-one/Bomberman'
+                href='https://github.com/wannn-one/bookshelf-tekkom'
                 target='_blank'
                 rel='noreferrer'
             >
-            <button className='px-8 py-2 mt-4 mr-8 text-[#252525]'>Code</button>
+            <button className='px-8 py-2 mt-4 mr-8 text-[#252525]'>see in github!</button>
             </a>
         </div>
             <div className='col-span-4 md:col-span-1 shadow-md shadow-[#FFCFCF] rounded-xl py-4'>
                 <div className='p-2'>
                     <p className='text-center font-bold pb-2'>Technologies</p>
                     <div className='grid grid-cols-3 md:grid-cols-1'>
-                        <p className='text-[#FFCFCF] py-2 flex items-center'>
-                            <RiRadioButtonFill className='pr-1' /> C++
-                        </p>
-                        <p className='text-[#FFCFCF] py-2 flex items-center'>
-                            <RiRadioButtonFill className='pr-1' /> SFML
-                        </p>
-                        <p className='text-[#FFCFCF] py-2 flex items-center'>
-                            <RiRadioButtonFill className='pr-1' /> Ubuntu 22.04 LTS
-                        </p>
                         <p className='text-[#FFCFCF] py-2 flex items-center'>
                             <RiRadioButtonFill className='pr-1' /> Github
                         </p>
