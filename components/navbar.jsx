@@ -5,6 +5,7 @@ import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai'
 import {FaGithub, FaLinkedin} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import { useRouter } from "next/router";
+import NavbarImage from "../public/assets/NavbarIcon.png"
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -48,7 +49,7 @@ const Navbar = () => {
                 <Link href='/'>
                     <Image
                         className="ml-2" 
-                        src="/../public/assets/NavbarIcon.png" 
+                        src={NavbarImage} 
                         alt="icon" 
                         width='125' 
                         height='50'
@@ -86,7 +87,7 @@ const Navbar = () => {
                     <div className="flex w-full items-center justify-between">
                         <Link href='/'>
                             <Image 
-                                src="/../public/assets/NavbarIcon.png" 
+                                src={NavbarImage} 
                                 alt="icon" 
                                 width='125' 
                                 height='50'
