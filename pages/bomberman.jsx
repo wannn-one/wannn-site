@@ -27,7 +27,7 @@ const bomberman = () => {
             <p>Project</p>
             <h2 className='pb-2'>Overview</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dignissimos voluptatem optio rem odit mollitia expedita, nisi dolore tempora? Itaque cupiditate error deleniti! Placeat perferendis facilis cum consequatur officia quam.
+                This game is inspired by a retro game with the same name as this game, namely Bomberman, you can check <a href='https://youtu.be/CZ9Pu9Usk5o' className='text-blue-300 hover:underline'> this link</a>. This game can be played with 2 people. Player 1 uses WASD to move and Left-Ctrl to plant the bomb. Player 2 uses Arrows to move and space bar to plant bombs. This game was created on Linux Ubuntu 22.04 Jammy Jellyfish, which means it can't be played on your favorite Windows yet. However, it is possible that this game will be developed so that it can be played on Windows.
             </p>
             <a
                 href='https://github.com/wannn-one/Bomberman'
@@ -48,7 +48,7 @@ const bomberman = () => {
                             <RiRadioButtonFill className='pr-1' /> SFML
                         </p>
                         <p className='text-[#FFCFCF] py-2 flex items-center'>
-                            <RiRadioButtonFill className='pr-1' /> Ubuntu 22.04 LTS
+                            <RiRadioButtonFill className='pr-1' /> Ubuntu 22.04 Jammy Jellyfisk
                         </p>
                         <p className='text-[#FFCFCF] py-2 flex items-center'>
                             <RiRadioButtonFill className='pr-1' /> Github

@@ -28,7 +28,7 @@ const bomberman = () => {
             <p>Project</p>
             <h2 className='pb-2'>Overview</h2>
             <p>
-                This bookshelf was made by myself and is a form of initiative. So that, I can study without having to search the pdfs on Google again. This repository is a public repositort, so that everyone can get the benefits. I hoped this repository can used as it should
+                This bookshelf was made by myself and is a form of initiative. So that, I can study without having to search the pdfs on Google again. This repository is a public repositort, so that everyone can get the benefits. I hoped this repository can used as it should! Enjoy it!
             </p>
             <a
                 href='https://github.com/wannn-one/bookshelf-tekkom'

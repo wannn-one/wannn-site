@@ -114,6 +114,14 @@ const contacts = () => {
                 </Link>    
             </div>
         </div>
+        <footer className=''>
+            <hr className="my-6 mb-4 border-gray-200 sm:mx-auto lg:my-8" />
+                <div className="text-center">
+                    <span className="text-sm text-gray-50">
+                        &copy; {new Date().getFullYear()} Ikhwanul Abiyu D H
+                    </span>
+                </div>
+        </footer>
     </div>
   )
 }
