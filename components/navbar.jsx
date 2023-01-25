@@ -72,6 +72,9 @@ const Navbar = () => {
                         <Link href='/#contacts'>
                             <li className="ml-10 text-sm uppercase hover:border-b">Contacts</li>
                         </Link>
+                        <Link href='https://drive.google.com/file/d/1SPXsIeyhEeo1cdWT5LInER6km1X6P-P6/view?usp=sharing'>
+                            <li className="ml-10 text-sm uppercase hover:border-b">See my CV!</li>
+                        </Link>
                     </ul>
                     <div onClick={handleNav} className="md:hidden mr-2">
                         <AiOutlineMenu size={25}></AiOutlineMenu>
@@ -118,6 +121,9 @@ const Navbar = () => {
                         </Link>
                         <Link href="/#contacts">
                             <li onClick={()=> setNav(false)} className="py-4 text-sm">Contacts</li>
+                        </Link>
+                        <Link href="https://drive.google.com/file/d/1SPXsIeyhEeo1cdWT5LInER6km1X6P-P6/view?usp=share_link">
+                            <li onClick={()=> setNav(false)} className="py-4 text-sm">See my cv!</li>
                         </Link>
                     </ul>
                     <div className="pt-40">
