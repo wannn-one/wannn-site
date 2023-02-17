@@ -72,7 +72,11 @@ const Navbar = () => {
                         <Link href='/#contacts'>
                             <li className="ml-10 text-sm uppercase hover:border-b">Contacts</li>
                         </Link>
-                        <Link href='https://drive.google.com/file/d/1SPXsIeyhEeo1cdWT5LInER6km1X6P-P6/view?usp=sharing'>
+                        <Link 
+                            href='https://drive.google.com/file/d/1SPXsIeyhEeo1cdWT5LInER6km1X6P-P6/view?usp=sharing'
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <li className="ml-10 text-sm uppercase hover:border-b">See my CV!</li>
                         </Link>
                     </ul>
@@ -163,8 +167,6 @@ const Navbar = () => {
 
                                 <a
                                     href='/blog'
-                                    target='_blank'
-                                    rel='noreferrer'
                                 >
                                     <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <BsFillPersonLinesFill/>

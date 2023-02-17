@@ -61,8 +61,6 @@ const contacts = () => {
 
                                 <a
                                     href='/blog'
-                                    target='_blank'
-                                    rel='noreferrer'
                                 >
                                     <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <BsFillPersonLinesFill/>
