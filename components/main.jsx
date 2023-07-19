@@ -15,10 +15,10 @@ const Main = () => {
                     <h1 className="py-2 text-gray-100">
                         Undergraduate Student at Computer Engineering ITS
                     </h1>
-                    <p className="py-2 text-gray-100 max-w-[70%] m-auto">
-                    Hi, i'm Ikhwanul Abiyu Dhiyya'ul Haq, an Undergraduate Computer Engineering Student. I'm a student at Institut Teknologi Sepuluh Nopember Surabaya. I'm the type of guy that's active in lectures, always tries to develop himself every day to become a better person in the future. A person who quickly adapts and learns new things, and includes people who are generalists. Interested in programming whatsoever. Can be robotics, application/web development, IoT, etc. 
+                    <p className="py-4 text-gray-100 max-w-[70%] m-auto">
+                    I am a 5th semester student of Computer Engineering ITS. I'm the type of guy that’s active in lectures, always tries to develop himself every day to become a better person in the future. A person who quickly adapts and learns new things, and includes people who are generalists. Currently interested in Machine Learning and Computer Vision. 
                     </p>
-                        <div className='flex items-center justify-between max-w-[330px] m-auto py-2'>
+                        <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                             <a
                                 href='https://www.linkedin.com/in/ikhwanul-abiyu-dhiyya-ul-haq-249268220/'
                                 target='_blank'
@@ -40,7 +40,7 @@ const Main = () => {
                             </a>
 
                             <a
-                                href='https://mail.google.com/mail/u/0/?fs=1&to=ikhwanulabiyu@gmail.com&su=Introduction%20From%20Us&body=%27%27&bcc=%27%27&tf=cm'
+                                href='mailto:ikhwanulabiyu@gmail.com'
                                 target='_blank'
                                 rel='noreferrer'
                             >

@@ -1,16 +1,20 @@
 import React from "react";
 import SkillsItem from "./skillsItem";
 import CPPIcon from '../public/assets/skills/c++.png'
-import HTMLIcon from '../public/assets/skills/html.png'
-import CSSIcon from '../public/assets/skills/css.png'
+// import HTMLIcon from '../public/assets/skills/html.png'
+// import CSSIcon from '../public/assets/skills/css.png'
 import JSIcon from '../public/assets/skills/javascript.png'
-import NextIcon from '../public/assets/skills/next.png'
-import ReactIcon from '../public/assets/skills/react.png'
-import TailwindIcon from '../public/assets/skills/tailwind.png'
+// import NextIcon from '../public/assets/skills/next.png'
+// import ReactIcon from '../public/assets/skills/react.png'
+// import TailwindIcon from '../public/assets/skills/tailwind.png'
 import GithubIcon from '../public/assets/skills/github.png'
 import FigmaIcon from '../public/assets/skills/figma.png'
 import CanvaIcon from '../public/assets/skills/canva.png'
 import OpenCVIcon from '../public/assets/skills/opencv.png'
+import ROSIcon from '../public/assets/skills/ros.png'
+import PyTorchIcon from '../public/assets/skills/pytorch.png'
+import PythonIcon from '../public/assets/skills/python.png'
+import OpenVinoIcon from '../public/assets/skills/openvino.png'
 
 const Skills = () => {
     return (
@@ -25,7 +29,12 @@ const Skills = () => {
                         skillImage={CPPIcon}
                     />
 
-                    <SkillsItem
+                    <SkillsItem 
+                        skillTitle='Python'
+                        skillImage={PythonIcon}
+                    />
+
+                    {/* <SkillsItem
                         skillTitle='HTML'
                         skillImage={HTMLIcon}
                     />
@@ -33,14 +42,14 @@ const Skills = () => {
                     <SkillsItem
                         skillTitle='CSS'
                         skillImage={CSSIcon}
-                    />
+                    /> */}
 
                     <SkillsItem
                         skillTitle='Javascript'
                         skillImage={JSIcon}
                     />
 
-                    <SkillsItem
+                    {/* <SkillsItem
                         skillTitle='Next.js'
                         skillImage={NextIcon}
                     />
@@ -53,7 +62,7 @@ const Skills = () => {
                     <SkillsItem
                         skillTitle='Tailwind CSS'
                         skillImage={TailwindIcon}
-                    />
+                    /> */}
                     
                     <SkillsItem
                         skillTitle='Github'
@@ -73,6 +82,21 @@ const Skills = () => {
                     <SkillsItem
                         skillTitle='OpenCV'
                         skillImage={OpenCVIcon}
+                    />
+
+                    <SkillsItem 
+                        skillTitle='ROS'
+                        skillImage={ROSIcon}
+                    />
+
+                    <SkillsItem
+                        skillTitle='PyTorch'
+                        skillImage={PyTorchIcon}
+                    />
+                    
+                    <SkillsItem
+                        skillTitle={'OpenVino'}
+                        skillImage={OpenVinoIcon}
                     />
                     
                 </div>

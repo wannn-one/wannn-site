@@ -73,7 +73,7 @@ const Navbar = () => {
                             <li className="ml-10 text-sm uppercase hover:border-b">Contacts</li>
                         </Link>
                         <Link 
-                            href='https://drive.google.com/file/d/1SPXsIeyhEeo1cdWT5LInER6km1X6P-P6/view?usp=sharing'
+                            href='https://drive.google.com/file/d/1Eq_BkVtngLbVSVIECRwHKCEQwbln_bLO/view?usp=sharing'
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -126,7 +126,7 @@ const Navbar = () => {
                         <Link href="/#contacts">
                             <li onClick={()=> setNav(false)} className="py-4 text-sm">Contacts</li>
                         </Link>
-                        <Link href="https://drive.google.com/file/d/1SPXsIeyhEeo1cdWT5LInER6km1X6P-P6/view?usp=share_link">
+                        <Link href="https://drive.google.com/file/d/1Eq_BkVtngLbVSVIECRwHKCEQwbln_bLO/view?usp=sharing">
                             <li onClick={()=> setNav(false)} className="py-4 text-sm">See my cv!</li>
                         </Link>
                     </ul>
@@ -134,13 +134,13 @@ const Navbar = () => {
                         <p className="uppercase tracking-widest text-[#FFCFCF]">
                             Lets Connect!
                         </p>
-                            <div className='flex items-center justify-between py-4'>
+                            <div className='flex items-center justify-center py-4'>
                                 <a
                                     href='https://www.linkedin.com/in/ikhwanul-abiyu-dhiyya-ul-haq-249268220/'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
-                                    <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                                    <div className="rounded-full shadow-md shadow-[#FFCFCF] p-5 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <FaLinkedin/>
                                     </div>
                                 </a>
@@ -150,17 +150,17 @@ const Navbar = () => {
                                     target='_blank'
                                     rel='noreferrer'
                                 >
-                                    <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                                    <div className="rounded-full shadow-md shadow-[#FFCFCF] p-5 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <FaGithub/>
                                     </div>
                                 </a>
 
                                 <a
-                                    href='https://mail.google.com/mail/u/0/?fs=1&to=ikhwanulabiyu@gmail.com&su=Introduction%20From%20Us&body=%27%27&bcc=%27%27&tf=cm'
+                                    href='mailto:ikhwanulabiyu@gmail.com'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
-                                    <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                                    <div className="rounded-full shadow-md shadow-[#FFCFCF] p-5 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <AiOutlineMail/>
                                     </div>
                                 </a>
@@ -168,7 +168,7 @@ const Navbar = () => {
                                 <a
                                     href='/blog'
                                 >
-                                    <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                                    <div className="rounded-full shadow-md shadow-[#FFCFCF] p-5 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <BsFillPersonLinesFill/>
                                     </div>
                                 </a>

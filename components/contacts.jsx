@@ -23,7 +23,7 @@ const contacts = () => {
                         </div>
                         <div>
                             <h2 className='py-2'>Ikhwanul Abiyu Dhiyya'ul Haq</h2>
-                            <p>4th Semester Undergraduate Student of Computer Engineering</p>
+                            <p>5th Semester Undergraduate Student of Computer Engineering</p>
                             <p className='py-4'>Currently available for internship. Contact me and let's talk</p>
                         </div>
                         <div>
@@ -50,7 +50,7 @@ const contacts = () => {
                                 </a>
 
                                 <a
-                                    href='https://mail.google.com/mail/u/0/?fs=1&to=ikhwanulabiyu@gmail.com&su=Introduction%20From%20Us&body=%27%27&bcc=%27%27&tf=cm'
+                                    href='mailto:ikhwanulabiyu@gmail.com'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
@@ -76,6 +76,7 @@ const contacts = () => {
                         <form
                             method='POST'
                             action='https://getform.io/f/095ae0ca-c114-4659-81d1-3973b5ebbe09'
+                            rel='noreferrer'
                         >
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                 <div className='flex flex-col'>

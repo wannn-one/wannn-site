@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import ProfilePicture from "../public/assets/photo1.png"
+import ProfilePicture from "../public/assets/photo2.png"
 
 const About = () => {
     return (
@@ -9,8 +9,15 @@ const About = () => {
                 <div className="col-span-2">
                     <p className="uppercase text-xl tracking-widest text-[#FFCFCF]">About</p>
                     <h2 className="py-4">Who am i?</h2>
-                    <p className="py-2 text-gray-200">I started my career in programming when I was accepted into Computer Engineering Bachelor. I learned C# which was a request from my father. I still remember one of the assignments given, which was a simple game of rock paper scissors with 2 user inputs. However, I studied C and C++ in a basic programming course at college. Moving on to 2nd semester, I studied class, STL C++, and an introduction to data structures in advanced programming courses.</p>
-                    <p className="py-2 text-gray-200">In 3rd semester, I studied data structures, where the final project was to make a game using the SFML library with the C++ programming language. And now, I'm about to start semester 4 soon. I learned web programming while being a commitee of MAGE 8 (Multimedia and Game Event) as Junior Backend Developer. I'm Currently joined in Barunastra Roboboat Team as Junior Programmer.</p>
+                    <p className="py-2 text-gray-200">
+                        I started my career in programming when I was accepted into Computer Engineering Bachelor. I learned C# which was a request from my father. I still remember one of the assignments given, which was a simple game of rock paper scissors with 2 user inputs. However, I studied C and C++ in a basic programming course at college. Moving on to 2nd semester, I studied class, STL C++, and an introduction to data structures in advanced programming courses. I learned web programming while being a commitee of MAGE 8 (Multimedia and Game Event) as Junior Backend Developer.
+                    </p>
+                    <p className="py-2 text-gray-200">
+                        In 3rd semester, I studied data structures, where the final project was to make a game using the SFML library with the C++ programming language. At 4th semester, joined in Barunastra Roboboat Team as Intern Programmer that responsible for datasets labeling and training. We achieved 1st Place Autonomy Challenge & 2nd Place Overall Design Documentation on RoboBoat 2023 by RoboNation in March 2023.
+                    </p>
+                    <p className="py-2 text-gray-200">
+                        I'm about to start 5th semester soon. I promoted by Barunastra as Computer Vision that would research, develop, and deploy software on Autonomous Surface Vehicles (ASV). Responsible for the ASV’s computer-related systems on computer vision for the ASV to perform tasks autonomously. 
+                    </p>
                     <a href="#projects">
                         <p className="py-2 cursor-pointer hover:underline">Check out my latest projects!</p>
                     </a>
