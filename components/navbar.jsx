@@ -69,11 +69,14 @@ const Navbar = () => {
                         <Link href='/#projects'>
                             <li className="ml-10 text-sm uppercase hover:border-b">Projects</li>
                         </Link>
+                        <Link href='/#achievements'>
+                            <li className="ml-10 text-sm uppercase hover:border-b">Achievements</li>
+                        </Link>
                         <Link href='/#contacts'>
                             <li className="ml-10 text-sm uppercase hover:border-b">Contacts</li>
                         </Link>
                         <Link 
-                            href='https://drive.google.com/file/d/1Eq_BkVtngLbVSVIECRwHKCEQwbln_bLO/view?usp=sharing'
+                            href='https://drive.google.com/file/d/1NFvmlVKlr6u36YreOCzfGxrr4r9nl2_O/view?usp=sharing'
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -135,7 +138,7 @@ const Navbar = () => {
                             Lets Connect!
                         </p>
                             <div className='flex items-center justify-center py-4'>
-                                <a
+                                <Link
                                     href='https://www.linkedin.com/in/ikhwanul-abiyu-dhiyya-ul-haq-249268220/'
                                     target='_blank'
                                     rel='noreferrer'
@@ -143,9 +146,9 @@ const Navbar = () => {
                                     <div className="rounded-full shadow-md shadow-[#FFCFCF] p-5 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <FaLinkedin/>
                                     </div>
-                                </a>
+                                </Link>
                                     
-                                <a
+                                <Link
                                     href='https://github.com/wannn-one'
                                     target='_blank'
                                     rel='noreferrer'
@@ -153,9 +156,9 @@ const Navbar = () => {
                                     <div className="rounded-full shadow-md shadow-[#FFCFCF] p-5 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <FaGithub/>
                                     </div>
-                                </a>
+                                </Link>
 
-                                <a
+                                <Link
                                     href='mailto:ikhwanulabiyu@gmail.com'
                                     target='_blank'
                                     rel='noreferrer'
@@ -163,15 +166,15 @@ const Navbar = () => {
                                     <div className="rounded-full shadow-md shadow-[#FFCFCF] p-5 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <AiOutlineMail/>
                                     </div>
-                                </a>
+                                </Link>
 
-                                <a
+                                <Link
                                     href='/blog'
                                 >
                                     <div className="rounded-full shadow-md shadow-[#FFCFCF] p-5 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <BsFillPersonLinesFill/>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import SkillsItem from "./skillsItem";
+import SkillsItem from "./item/skillsItem";
 import CPPIcon from '../public/assets/skills/c++.png'
 // import HTMLIcon from '../public/assets/skills/html.png'
 // import CSSIcon from '../public/assets/skills/css.png'
@@ -9,7 +9,7 @@ import JSIcon from '../public/assets/skills/javascript.png'
 // import TailwindIcon from '../public/assets/skills/tailwind.png'
 import GithubIcon from '../public/assets/skills/github.png'
 import FigmaIcon from '../public/assets/skills/figma.png'
-import CanvaIcon from '../public/assets/skills/canva.png'
+// import CanvaIcon from '../public/assets/skills/canva.png'
 import OpenCVIcon from '../public/assets/skills/opencv.png'
 import ROSIcon from '../public/assets/skills/ros.png'
 import PyTorchIcon from '../public/assets/skills/pytorch.png'
@@ -75,11 +75,6 @@ const Skills = () => {
                     />
 
                     <SkillsItem
-                        skillTitle='Canva'
-                        skillImage={CanvaIcon}
-                    />
-
-                    <SkillsItem
                         skillTitle='OpenCV'
                         skillImage={OpenCVIcon}
                     />
@@ -95,7 +90,7 @@ const Skills = () => {
                     />
                     
                     <SkillsItem
-                        skillTitle={'OpenVino'}
+                        skillTitle={'Intel OpenVINO'}
                         skillImage={OpenVinoIcon}
                     />
                     

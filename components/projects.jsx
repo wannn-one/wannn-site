@@ -1,7 +1,7 @@
 import React from "react";
 import bombermanImg from '../public/assets/projects/bomberman.png'
-import bookshelfTekkomImg from '../public/assets/projects/bookshelf-tekkom.png'
-import ProjectItem from "./projectItem";
+import pokerOrUnoImg from '../public/assets/projects/pokeroruno.png'
+import ProjectItem from "./item/projectItem";
 
 const Projects = () => {
     return (
@@ -15,14 +15,15 @@ const Projects = () => {
                         title='Bomberman' 
                         backgroundImg={bombermanImg} 
                         description='C++ SFML Game for Final Project of Data Structure and Algorithm Analysis course'
-                        projectUrl='/bomberman'
+                        projectUrl='/project/bomberman'
                     />
 
                     <ProjectItem
-                        title='Bookshelf Tekkom'
-                        backgroundImg={bookshelfTekkomImg}
-                        description='Books of All Computer Engineering Courses in ITS (2022 Curriculum)'
-                        projectUrl='/bookshelfTekkom'
+                        title='Poker or Uno?'
+                        backgroundImg={pokerOrUnoImg}
+                        description='A CNN-based game built with OpenCV and TensorFlow for Final Project of Digital Image Processing course'
+                        projectUrl='/project/poker-or-uno'
+
                     />
                     
                 </div>

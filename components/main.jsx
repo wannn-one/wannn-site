@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -16,20 +17,20 @@ const Main = () => {
                         Undergraduate Student at Computer Engineering ITS
                     </h1>
                     <p className="py-4 text-gray-100 max-w-[70%] m-auto">
-                    I am a 5th semester student of Computer Engineering ITS. I'm the type of guy that’s active in lectures, always tries to develop himself every day to become a better person in the future. A person who quickly adapts and learns new things, and includes people who are generalists. Currently interested in Machine Learning and Computer Vision. 
+                    I am a 3rd year student of Computer Engineering ITS. I'm the type of guy that’s active in lectures, always tries to develop himself every day to become a better person in the future. A person who quickly adapts and learns new things, and includes people who are generalists. Currently interested in Machine Learning and Computer Vision. 
                     </p>
                         <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                            <a
-                                href='https://www.linkedin.com/in/ikhwanul-abiyu-dhiyya-ul-haq-249268220/'
+                            <Link
+                                href='https://www.linkedin.com/in/ikhwanul-abiyu-dhiyya-ul-haq/'
                                 target='_blank'
                                 rel='noreferrer'
                             >
                                 <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                                     <FaLinkedin/>
                                 </div>
-                            </a>
+                            </Link>
                                 
-                            <a
+                            <Link
                                 href='https://github.com/wannn-one'
                                 target='_blank'
                                 rel='noreferrer'
@@ -37,9 +38,9 @@ const Main = () => {
                                 <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <FaGithub/>
                                 </div>
-                            </a>
+                            </Link>
 
-                            <a
+                            <Link
                                 href='mailto:ikhwanulabiyu@gmail.com'
                                 target='_blank'
                                 rel='noreferrer'
@@ -47,15 +48,15 @@ const Main = () => {
                                 <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                                     <AiOutlineMail/>
                                 </div>
-                            </a>
+                            </Link>
 
-                            <a
+                            <Link
                                 href='/blog'
                             >
-                            <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                                <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                                     <BsFillPersonLinesFill/>
-                            </div>
-                        </a>
+                                </div>
+                            </Link>
                     </div>
                 </div>
             </div>

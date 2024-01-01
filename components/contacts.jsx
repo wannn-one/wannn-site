@@ -19,17 +19,17 @@ const contacts = () => {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-md shadow-[#FFCFCF] rounded-xl p-4'>
                     <div className='lg:p-4 h-full'>
                         <div>
-                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={ProfilePhoto}/>
+                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={ProfilePhoto} alt='/'/>
                         </div>
                         <div>
                             <h2 className='py-2'>Ikhwanul Abiyu Dhiyya'ul Haq</h2>
-                            <p>5th Semester Undergraduate Student of Computer Engineering</p>
-                            <p className='py-4'>Currently available for internship. Contact me and let's talk</p>
+                            <p>3rd year Undergraduate Student of Computer Engineering</p>
+                            <p className='py-4'>Currently unavailable for internship. Contact me and let's talk!</p>
                         </div>
                         <div>
                             <p className='uppercase pt-8'>Connect with me!</p>
                             <div className='flex items-center justify-between py-4'>
-                                <a
+                                <Link
                                     href='https://www.linkedin.com/in/ikhwanul-abiyu-dhiyya-ul-haq-249268220/'
                                     target='_blank'
                                     rel='noreferrer'
@@ -37,9 +37,9 @@ const contacts = () => {
                                     <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <FaLinkedin/>
                                     </div>
-                                </a>
+                                </Link>
                                 
-                                <a
+                                <Link
                                     href='https://github.com/wannn-one'
                                     target='_blank'
                                     rel='noreferrer'
@@ -47,9 +47,9 @@ const contacts = () => {
                                     <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <FaGithub/>
                                     </div>
-                                </a>
+                                </Link>
 
-                                <a
+                                <Link
                                     href='mailto:ikhwanulabiyu@gmail.com'
                                     target='_blank'
                                     rel='noreferrer'
@@ -57,15 +57,15 @@ const contacts = () => {
                                     <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <AiOutlineMail/>
                                     </div>
-                                </a>
+                                </Link>
 
-                                <a
+                                <Link
                                     href='/blog'
                                 >
                                     <div className="rounded-full shadow-md shadow-[#FFCFCF] p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <BsFillPersonLinesFill/>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div> 
