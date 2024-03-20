@@ -76,7 +76,7 @@ const Navbar = () => {
                             <li className="ml-10 text-sm uppercase hover:border-b">Contacts</li>
                         </Link>
                         <Link 
-                            href='https://drive.google.com/file/d/1NFvmlVKlr6u36YreOCzfGxrr4r9nl2_O/view?usp=sharing'
+                            href='https://drive.google.com/file/d/1LVwFCGms8CHC4kVR1Cg6MKS-ln13hfdZ/view?usp=drive_link'
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -129,7 +129,7 @@ const Navbar = () => {
                         <Link href="/#contacts">
                             <li onClick={()=> setNav(false)} className="py-4 text-sm">Contacts</li>
                         </Link>
-                        <Link href="https://drive.google.com/file/d/1Eq_BkVtngLbVSVIECRwHKCEQwbln_bLO/view?usp=sharing">
+                        <Link href="https://drive.google.com/file/d/1LVwFCGms8CHC4kVR1Cg6MKS-ln13hfdZ/view?usp=drive_link">
                             <li onClick={()=> setNav(false)} className="py-4 text-sm">See my cv!</li>
                         </Link>
                     </ul>
@@ -139,7 +139,7 @@ const Navbar = () => {
                         </p>
                             <div className='flex items-center justify-center py-4'>
                                 <Link
-                                    href='https://www.linkedin.com/in/ikhwanul-abiyu-dhiyya-ul-haq-249268220/'
+                                    href='https://www.linkedin.com/in/ikhwanul-abiyu-dhiyya-ul-haq'
                                     target='_blank'
                                     rel='noreferrer'
                                 >

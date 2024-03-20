@@ -24,7 +24,7 @@ const contacts = () => {
                         <div>
                             <h2 className='py-2'>Ikhwanul Abiyu Dhiyya'ul Haq</h2>
                             <p>3rd year Undergraduate Student of Computer Engineering</p>
-                            <p className='py-4'>Currently unavailable for internship. Contact me and let's talk!</p>
+                            <p className='py-4'>Currently available for internship. Contact me and let's talk!</p>
                         </div>
                         <div>
                             <p className='uppercase pt-8'>Connect with me!</p>

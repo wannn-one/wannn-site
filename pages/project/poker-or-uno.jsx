@@ -28,10 +28,10 @@ const PokerOrUno = () => {
             <p>Project</p>
             <h2 className='pb-2'>Overview</h2>
             <p>
-                This bookshelf was made by myself and is a form of initiative. So that, I can study without having to search the pdfs on Google again. This repository is a public repositort, so that everyone can get the benefits. I hoped this repository can used as it should! Enjoy it!
+                A game that implement Image Classification using CNN. The game has a rule like UNO but played with poker card. You can play this game by yourself. The game will recognize the card you put on the table and will give you a notification if the card is valid or not. The game will also recognize the card you draw from the deck and will give you a notification if the card is valid or not. The game will end if there is a player/computer who has no card left in their hand.
             </p>
             <Link
-                href='https://github.com/wannn-one/bookshelf-tekkom'
+                href='https://github.com/wannn-one/poker-or-uno'
                 target='_blank'
                 rel='noreferrer'
             >
@@ -43,7 +43,13 @@ const PokerOrUno = () => {
                     <p className='text-center font-bold pb-2'>Technologies</p>
                     <div className='grid grid-cols-3 md:grid-cols-1'>
                         <p className='text-[#FFCFCF] py-2 flex items-center'>
-                            <RiRadioButtonFill className='pr-1' /> Github
+                            <RiRadioButtonFill className='pr-1' /> OpenCV
+                        </p>
+                        <p className='text-[#FFCFCF] py-2 flex items-center'>
+                            <RiRadioButtonFill className='pr-1' /> TensorFlow
+                        </p>
+                        <p className='text-[#FFCFCF] py-2 flex items-center'>
+                            <RiRadioButtonFill className='pr-1' /> Python
                         </p>
                     </div>
                 </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import bombermanImg from '../public/assets/projects/bomberman.png'
 import pokerOrUnoImg from '../public/assets/projects/pokeroruno.png'
+import yolov5ros2img from '../public/assets/projects/yolov5ros2.png'
 import ProjectItem from "./item/projectItem";
 
 const Projects = () => {
@@ -24,6 +25,13 @@ const Projects = () => {
                         description='A CNN-based game built with OpenCV and TensorFlow for Final Project of Digital Image Processing course'
                         projectUrl='/project/poker-or-uno'
 
+                    />
+
+                    <ProjectItem
+                        title='YOLOv5 ROS2'
+                        backgroundImg={yolov5ros2img}
+                        description='A ROS2 package for YOLOv5 object detection'
+                        projectUrl='/project/yolov5ros2'
                     />
                     
                 </div>
